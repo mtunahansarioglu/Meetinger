@@ -1,0 +1,41 @@
+﻿/* site.css */
+
+body {
+    padding-top: 50px;
+}
+
+.sidebar{
+    background-color: green;
+    float:left;
+    height:100%;
+    width:250px;
+
+}
+
+.left-menu-padding {
+   padding:20px 10px 10px 0px !important;
+   margin: 0 !important;
+}
+
+.footer {
+    background-color: #f5f5f5;
+    border-top:1px solid #ccc;
+}
+
+#sidebar {
+    color: #eee;
+    height: 100%;
+    width: 250px;
+    overflow: hidden;
+    transition: left ease-in .25s;
+    border-right: 1px solid #eee;
+    padding: 20px 10px 0px 10px;
+}
+
+#main-wrapper {
+    margin-left: 250px;
+}
+
+html, body {
+    height: 100%;
+}
