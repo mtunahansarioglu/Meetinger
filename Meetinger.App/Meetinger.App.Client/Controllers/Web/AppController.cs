@@ -29,7 +29,9 @@ namespace Meetinger.App.Client.Controllers.Web
             if (ModelState.IsValid)
             {
                 ModelState.Clear();
+                ViewBag.Deneme = "Tunahan";
                 ViewBag.UserMessage = "Message Sent";
+                
             }
 
 

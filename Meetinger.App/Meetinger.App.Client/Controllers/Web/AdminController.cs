@@ -11,9 +11,26 @@ namespace Meetinger.App.Client.Controllers.Web
     [Route("Admin")]
     public class AdminController : Controller
     {
-        //GET: /<controller>/
         [Route("Index")]
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        [Route("Company")]
+        public IActionResult Company()
+        {
+            return View();
+        }
+
+        [Route("Users")]
+        public IActionResult Users()
+        {
+            return View();
+        }
+
+        [Route("Project")]
+        public IActionResult Project()
         {
             return View();
         }
